@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: rgb(117, 207, 200);
+}
+
+#pagina{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+
