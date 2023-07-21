@@ -6,32 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="style/paisagem.css" media="screen and (orientation : landscape)">
-    <link rel="stylesheet" href="style/retrato.css" media="screen and (orientation : portrait)">
+    <link rel="stylesheet" href="style/@mediaMobile.css" media="screen and (max-width:730px)">
+    
 </head>
 <body>
     <div id="pagina">
+        <header>
+            <h1>ArtMuseum</h1>    
         <nav>            
-            <div id="titulo">
-                <h1>ArtMuseum</h1>
-            </div>
-            <div id="link">
-                <a href="#" class="link">Home</a>
-                <a href="#" class="link">Galeria</a>
-                <a href="#" class="link">Contato</a>
+            <div id="menu">
+                <ul>
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#" class="link">Galeria</a></li>
+                    <li><a href="#" class="link">Contato</a></li>
+                </ul>
             </div>
         </nav>
-        <header>            
-                <h1>Destaques da semana</h1>            
+                    
+                           
         </header>
         <main>
+            <h1>Destaques da semana</h1> 
             <div id="post">
                 <div>
                     <h3>Elizabeth</h3>
                 </div>
                 <div>
                     <picture>
-                        <source media="(max-width:730px)" srcset="images/images/elizabethMenor.png" class="img">
+                        <source media="(orientation : landscape) and (max-height : 500px)" srcset="images/images/elizabethLandscape.png"  class="img">
+                        <source media="(max-width:730px)" srcset="images/images/elizabethMenor.png" class="img">                        
                         <img src="images/images/elizabeth.jpg" alt="" class="img">
                     </picture>
 

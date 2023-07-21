@@ -1,0 +1,8 @@
+#pagina, #post, #post2, #post3{
+    background: rgb(58,180,178);
+    background: linear-gradient(42deg, rgba(58,180,178,1) 5%, rgba(176,58,180,1) 14%, rgba(42,29,253,1) 37%, rgba(29,159,253,1) 64%, rgba(42,29,253,1) 100%);
+        color: white;
+        box-shadow: 5px 5px 50px greenyellow;
+}
+    
+       
