@@ -80,7 +80,7 @@ header h1{
     
 }
 
-#img{
+.img{
     width: 80%;
 }
 
@@ -181,7 +181,7 @@ footer{
 /*  */
 /* @media */
  @media screen and (max-width:730px){
-    #post, #post2, #post3{
+    #pagina, #post, #post2, #post3{
         background-color: black;
         color: white;
         box-shadow: 5px 5px 50px greenyellow;
