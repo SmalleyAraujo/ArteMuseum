@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(117, 207, 200);
+    background-color: white;
 }
 
 #pagina{
@@ -14,3 +14,184 @@ body{
     margin: 0px auto;
 }
 
+/* INICIO NAV */
+nav{
+    width: 100%;
+    height: auto;   
+    background-color: rgb(27, 27, 27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+#titulo{
+    width: 50%;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#link{
+    width: 50%;   
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.link{    
+    text-decoration: none;  
+    color: white;
+}
+/* FIM NAV */
+/*  */
+/*  */
+/* INICIO HEADER */
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    border: none;
+    border-bottom: 2px solid red;
+    width: 500px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+/* FIM HEADER */
+/*  */
+/*  */
+/* INICIO MAIN */
+#post{
+    min-width: 350px;
+    max-width: 800px;
+    padding: 20px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 50px;    
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid gray;
+    
+}
+
+#img{
+    width: 80%;
+}
+
+.button{
+    width: 90px;
+    height: 30px;
+    margin: 15px;
+    background-color:crimson;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+
+
+#post2{
+    min-width: 350px;
+    max-width: 800px;
+    padding: 20px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 50px;    
+    text-align: center;
+   
+    
+}
+
+
+
+#post3{
+    min-width: 350px;
+    max-width: 800px;
+    padding: 20px;
+    height: auto;
+    margin: 0px auto;       
+    text-align: center;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#destaque{
+    border: none;
+    border-bottom: 2px solid red;
+    width: 500px;    
+    text-align: center;     
+}
+
+#banner{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+#bannerControl{
+    width: 30%;
+    height: auto;
+    border: 2px solid gray;
+    border-radius: 5px
+}
+.imagemBanner{
+    width: 100%;
+}
+
+#bannerControl h3{
+    padding: 10px;
+}
+
+#bannerControl p{
+    padding: 10px;
+}
+
+
+/* FIM MAIN */
+/*  */
+/*  */
+/* INICIO FOOTER */
+
+footer{
+    width: 100%;
+    height: 70px;   
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: rgb(27, 27, 27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+/* FIM FOOTER */
+/*  */
+/*  */
+/* @media */
+ @media screen and (max-width:730px){
+    #post, #post2, #post3{
+        background-color: black;
+        color: white;
+        box-shadow: 5px 5px 50px greenyellow;
+    }
+       
+} 
+
+@media screen and (min-width: 731px) and (max-width:1500px){
+    #post{
+        background-color: orange;
+    }
+    
+} 
