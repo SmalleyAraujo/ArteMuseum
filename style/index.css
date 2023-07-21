@@ -4,15 +4,51 @@
     box-sizing: border-box; 
 }
 
-body{
-    background-color: white;
-}
 
 #pagina{
-    width: 100%;
+    min-width: 350px;
+    max-width: 1200px;   
     height: auto;
     margin: 0px auto;
 }
+
+/*  */
+/* INICIO HEADER */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#menu{
+    height: 100%;
+}
+
+header h1{
+    border: none;
+    border-bottom: 2px solid red;
+    width: 500px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+/* FIM HEADER */
+/*  */
+
+
+
+
+
+
+
+
+
+
 
 /* INICIO NAV */
 nav{
@@ -37,27 +73,7 @@ nav{
 }
 /* FIM NAV */
 /*  */
-/*  */
-/* INICIO HEADER */
-header{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-}
 
-header h1{
-    border: none;
-    border-bottom: 2px solid red;
-    width: 500px;
-    margin-top: 30px;
-    text-align: center;
-    
-}
-
-/* FIM HEADER */
-/*  */
 /*  */
 /* INICIO MAIN */
 #post{
