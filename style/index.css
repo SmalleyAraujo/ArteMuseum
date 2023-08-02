@@ -9,7 +9,7 @@
     min-width: 350px;
     max-width: 1200px;   
     height: auto;
-    margin: 0px auto;
+    margin: 0% auto;
 }
 
 /*  */
@@ -21,76 +21,80 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: white;
     
-}
-
-#menu{
-    height: 100%;
-}
-
-header h1{
-    border: none;
-    border-bottom: 2px solid red;
-    width: 500px;
-    margin-top: 30px;
-    text-align: center;
-    
-}
-
-/* FIM HEADER */
-/*  */
-
-
-
-
-
-
-
-
-
-
-
-/* INICIO NAV */
-nav{
-    width: 100%;
-    height: auto;   
-    background-color: rgb(27, 27, 27);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
 }
 
 #menu{
     width: 50%;   
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
 }
 
-.link{    
-    text-decoration: none;  
+ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+}
+
+li a{
+    text-decoration: none;
     color: white;
 }
-/* FIM NAV */
-/*  */
 
+#menuButton{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+/* FIM HEADER */
 /*  */
 /* INICIO MAIN */
+main{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0% auto;
+}
+
+hr{
+    width: 90%;
+    border: #f51248 3px solid;
+    margin: 10px auto;
+}
+
 #post{
-    min-width: 350px;
+    width: 90%;
+    border: 2px solid gray;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 10px;
+    /* min-width: 350px;
     max-width: 1200px;
     padding: 20px;
     height: auto;
     margin: 0px auto;
     margin-top: 50px;    
-    text-align: center;
-    border-radius: 10px;
-    border: 2px solid gray;
-    
+    text-align: center;    
+    border: 2px solid gray; */    
 }
 
-.img{
-    width: 80%;
+#post h3{
+    margin: 20px 0px;
+
+}
+
+.foto{
+    width: 90%;
 }
 
 .button{
@@ -100,29 +104,26 @@ nav{
     background-color:crimson;
     border: none;
     border-radius: 5px;
-    color: white;
-    
+    color: white;    
 }
 
-
-
 #post2{
-    min-width: 350px;
-    max-width: 800px;
+    width: 90%;
     padding: 20px;
     height: auto;
     margin: 0px auto;
     margin-top: 50px;    
     text-align: center;
-   
-    
+    border-radius: 10px;   
 }
 
+#post2 h3{
+    margin: 20px 0px;
 
+}
 
 #post3{
-    min-width: 350px;
-    max-width: 800px;
+    width: 90%;
     padding: 20px;
     height: auto;
     margin: 0px auto;       
@@ -132,13 +133,8 @@ nav{
     justify-content: center;    
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
 
-}
-#destaque{
-    border: none;
-    border-bottom: 2px solid red;
-    width: 500px;    
-    text-align: center;     
 }
 
 #banner{
@@ -166,7 +162,6 @@ nav{
     padding: 10px;
 }
 
-
 /* FIM MAIN */
 /*  */
 /*  */
@@ -183,7 +178,6 @@ footer{
     justify-content: center;
     color: white;
 }
-
 
 /* FIM FOOTER */
 /*  */

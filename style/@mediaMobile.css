@@ -6,3 +6,10 @@
 }
     
        
+#menu{
+    display: none;
+}
+
+#menuButton{
+    display: block;
+}
